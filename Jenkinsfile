@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('checkout'){
             steps{
-                git url:'https://github.com/praveenpeddapotula/ci-java.git' , branch:main
+                git url:'https://github.com/praveenpeddapotula/ci-java.git' , branch: 'main'
             }
         }
         stage('build'){
